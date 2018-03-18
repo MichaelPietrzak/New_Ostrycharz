@@ -1,0 +1,107 @@
+#drzewa {
+    .mainPage-section-img {
+      background-image: url(../images/drzewa.jpg);
+    }
+  }
+  
+  #ogrody {
+    .mainPage-section-img {
+      background-image: url(../images/ogrody.jpg);
+    }
+  }
+
+  .mainPage-section-img {
+    width: auto;
+    box-shadow: 4px 4px 20px $black;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    margin-left: -23px;
+    .title {
+      font-size: 5em;
+      color: $white;
+      position: absolute;
+      bottom: 5%;
+      right: 10%;
+      letter-spacing: 2px;
+      font-weight: 300;
+      .material-icons {
+        font-size: 2.3rem;
+      }
+    }
+  }
+  
+  .mainPageSection {
+    padding-top: 100px;
+    .p-content {
+      padding: 13%;
+      padding-bottom: 27%;
+      padding-top: 18%;
+      text-align: justify;
+      font-size: 2.2em;
+    }
+    @media all and (max-width: 1500px) {
+      .p-content {
+        padding: 10%;
+        padding-bottom: 20%;
+        padding-top: 15%;
+        text-align: justify;
+        font-size: 2em;
+      }
+    }
+  }
+  
+  .team-section {
+    padding-top: 10%;
+    padding-bottom: 3%;
+    h3 {
+      span {
+        font-weight: bold !important;
+      }
+    }
+    .team-person {
+      margin: auto;
+      text-align: center;
+      font-size: 2.2em;
+      .teamName {
+        font-weight: bold;
+      }
+      img {
+        width: 80%;
+      }
+    }
+  }
+  
+  .kontakt-section {
+    padding-top: 7%;
+    padding-bottom: 3%;
+    background: $white-1;
+    color: black;
+    .kontakt {
+      text-align: right;
+      border-right: 2px solid $black;
+      padding-right: 25px;
+      p {
+        margin: 0px;
+      }
+      .or-p {
+        padding-top: 1%;
+        font-size: 2.4em;
+        color: rgba(0, 0, 0, 0.2);
+      }
+      .title {
+        font-size: 2.8em;
+        padding-top: 5%;
+      }
+      .before-or-p {
+        padding-top: 1%;
+        ;
+      }
+      .content {
+        font-size: 1.8em;
+        &:last-of-type {
+          padding-bottom: 5%;
+        }
+      }
+    }
+  }
